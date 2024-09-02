@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <!--I will use Bootsrap Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <input type="password" id="password" placeholder="Password to check..." />
+    <div class="check-results">
+      <span id="upperCase" class="invalid"
+        ><i class="bi bi-shield-x"></i> Contain Upper Letter</span
+      >
+      <span id="lowerCase" class="invalid"
+        ><i class="bi bi-shield-x"></i> Contain Lower Letter</span
+      >
+      <span id="number" class="invalid"
+        ><i class="bi bi-shield-x"></i> Contain Number Letter</span
+      >
+      <span id="specialChar" class="invalid"
+        ><i class="bi bi-shield-x"></i> Contain Symbol Letter</span
+      >
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
