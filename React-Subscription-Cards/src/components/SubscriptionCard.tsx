@@ -44,7 +44,7 @@ const SubscriptionCard = ({ options }: Props) => {
           {options.price}
         </Heading>
         <Button variant={options.buttonStyle}>Get Started</Button>
-        <Heading className="mt-8" size="3" weight="medium">
+        <Heading className="mt-8 text-left" size="3" weight="medium">
           What is included?
         </Heading>
         <ul>
